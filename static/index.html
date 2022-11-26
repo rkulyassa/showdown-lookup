@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Showdown tool"/>
+    <title>Showdown Lookup Tool</title>
+    <link rel="stylesheet" href="styles.css">
+    <!--<link rel="shortcut icon" type="image/png" href="favicon.png">-->
+  </head>
+  <body>
+    <div id="result">
+      <img id="sprite" src="">
+      <div id="stats-container">
+      </div>
+      <div id="meta-container">
+        <p id="pokemon-name"></p>
+      </div>
+      <div id="type-container">
+      </div>
+      <!--<h2>Abilities</h2>-->
+      <ul id="abilities">
+      </ul>
+      <div id="abilities-preview"></div>
+      <!--<h2>Items</h2>-->
+      <ul id="items">
+      </ul>
+      <div id="items-preview"></div>
+      <!--<h2>Moves</h2>-->
+      <ul id="moves">
+      </ul>
+      <div id="moves-preview"></div>
+    </div>
+    <input height="20" list="search-results" type="text" autocorrect="off" placeholder="search for a pokemon">
+    <datalist id="search-results"></datalist>
+  </body>
+  <script type="text/javascript" src="main.js"></script>
+</html>

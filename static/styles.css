@@ -1,0 +1,52 @@
+html, body {
+	height: 100%;
+}
+
+html {
+	display: table;
+	margin: auto;
+}
+
+body {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+p {
+	margin: 0px;
+	display: inline;
+}
+
+#result {
+	display: grid;
+	grid-gap: 0px;
+	grid-template-columns: 180px 250px;
+}
+
+#stats-container {
+	text-align: left;
+}
+
+.stat-bar {
+	background-color: #000;
+	float: left;
+}
+
+/*#meta-container {
+	grid-row-start: 1;
+	grid-row-end: 6;
+	grid-column-start: 2;
+	grid-column-end: 3;
+}*/
+
+
+input {
+	font-size: 24px;
+	text-align: center;
+}
+
+ul {
+	list-style: none;
+	transform: translateX(-20px);
+}
